@@ -4,6 +4,8 @@ metadata:
   name: bmi-calculator
   labels:
     app: bmi-calculator
+  annotations:
+    flux.weave.works/automated: "true"
 spec:
   replicas: 2
   selector:
